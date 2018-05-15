@@ -199,7 +199,7 @@ ncnn的安卓端源码范例主要采用的mk文件构造，安卓端使用AS的
 参考网上配置andorid studio的c++混编环境，新建一个mtcnn—AS的工程；
 
 2. 配置相关文件位置（ps：最新的lib会更快,已配好）
-	- 下载ncnn的release里的[安卓端lib](https://github.com/Tencent/ncnn/releases)，
+	- 下载ncnn的release里的安卓端lib
 	- 将arm端的.a文件放至相关jniLibs对应目录下；
 	- include的头文件放至cpp目录下；
 	- 将mtcnn的c++的接口文件放在cpp目录下；
